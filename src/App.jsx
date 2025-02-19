@@ -79,7 +79,7 @@ const App = () => {
                 <div className='flex justify-between items-center h-[50px]'>
                     <div className='flex px-1 items-center'>
                         <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm dark:bg-gray-700 dark:border-gray-600" />
-                        <p className="px-0 sm:px-2 md:px-2 lg:px-2 text-sm sm:text-base md:text-lg lg:text-lg text-gray-500 dark:text-gray-400">
+                        <p className="px-2 sm:px-2 md:px-2 lg:px-2 text-sm sm:text-base md:text-lg lg:text-lg text-gray-500 dark:text-gray-400">
                             Exclude Spaces
                         </p>
                     </div>
@@ -89,7 +89,7 @@ const App = () => {
 
                 </div>
 
-                <div className='flex justify-center flex-wrap gap-5 mt-10'>
+                <div className='flex justify-center flex-1 flex-wrap gap-5 mt-10'>
 
 
                 <div className="relative w-87 h-40 p-5 bg-purple-500 dark:bg-purple-700 rounded-xl flex justify-center text-black dark:text-white flex-col overflow-hidden">
@@ -123,22 +123,6 @@ const App = () => {
 
 
                 </div>
-
-                {/* <div className='mt-10'>
-                    <h2 className='text-xl lg:text-2xl font-bold dark:font-normal'>Letter Density</h2>
-                    <p className='text-sm text-gray-400 mt-3'>No characters found. Start typing to see letter density.</p>
-                    <ul>
-                        <li className='flex items-center justify-between mt-5'>
-                            <span className='text-xl text-gray-300'>E</span>
-                            <div className='w-240 rounded-xl h-4 bg-gray-700'>
-                                <div className='w-[16%] h-4 bg-purple-400 rounded-xl'>
-
-                                </div>
-                            </div>
-                            <span className='text-xl text-gray-300'>40(16.06%)</span>
-                        </li>
-                    </ul>
-                </div> */}
 
                 <CharAnnalyzer text={text} />
 

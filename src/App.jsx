@@ -58,9 +58,6 @@ const App = () => {
                     </p>
                 </div>
 
-                {/* <div className='p-2 bg-white rounded-md' >
-                    <img width={30} height={30} src="./src/assets/icons8-light-50.png" alt="" />
-                </div> */}
                 <DarkModeToggle />
             </div>
 
@@ -91,7 +88,8 @@ const App = () => {
                 <div className='flex justify-center flex-wrap gap-5 mt-10'>
 
 
-                    <div className="relative w-80 h-40 p-5 bg-purple-500 rounded-lg flex justify-center text-black flex-col overflow-hidden">
+                <div className="relative w-80 h-40 p-5 bg-purple-500 dark:bg-purple-700 rounded-lg flex justify-center text-black dark:text-white flex-col overflow-hidden">
+
                         <div className="absolute right-0 top-0 w-full h-full flex justify-end">
                             <div className="absolute w-10 h-10 bg-white/20 rounded-full top-5 right-5"></div>
                             <div className="absolute w-14 h-14 bg-blue-300/30 rounded-lg top-14 right-10 rotate-12"></div>
@@ -100,7 +98,7 @@ const App = () => {
                         <h3 className="text-5xl font-bold font-liter relative z-10">{char}</h3>
                         <p className="text-1xl mt-3 font-semibold relative z-10">Total Characters</p>
                     </div>
-                    <div className="relative w-80 h-40 p-5 bg-blue-500 rounded-lg flex justify-center text-black flex-col overflow-hidden">
+                    <div className="relative w-80 h-40 p-5 bg-blue-300 dark:bg-blue-500 rounded-lg flex justify-center text-black dark:text-white flex-col overflow-hidden">
                         <div className="absolute right-0 top-0 w-full h-full flex justify-end">
                             <div className="absolute w-12 h-12 bg-white/20 rounded-full top-3 right-6"></div>
                             <div className="absolute w-16 h-16 bg-green-300/30 skew-x-12 top-12 right-8"></div>
@@ -109,7 +107,7 @@ const App = () => {
                         <h3 className="text-5xl font-bold font-liter relative z-10">{wordCount}</h3>
                         <p className="text-1xl mt-3 font-semibold relative z-10">Total Words</p>
                     </div>
-                    <div className="relative w-80 h-40 p-5 bg-green-500 rounded-lg flex justify-center text-black flex-col overflow-hidden">
+                    <div className="relative w-80 h-40 p-5 bg-green-400 dark:bg-green-600 rounded-lg flex justify-center text-black dark:text-white flex-col overflow-hidden">
                         <div className="absolute right-0 top-0 w-full h-full flex justify-end">
                             <div className="absolute w-14 h-14 bg-white/20 rounded-full top-2 right-4"></div>
                             <div className="absolute w-10 h-10 bg-orange-300/40 rotate-45 top-10 right-8"></div>

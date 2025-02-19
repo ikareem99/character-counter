@@ -50,7 +50,7 @@ const App = () => {
                 <div className='flex justify-center items-center'>
                     <img
                         className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain"
-                        src="/assets/theme-switcher.png"
+                        src="https://lh3.googleusercontent.com/pw/AP1GczNuOZFguZ1dHjWa9_fp2Vtmp4cd5U6ifqtzZ9KJn-vedufzj5yatMFlQjd8RvObO4CDffugFviIjPwGZ2eyof1zcgJhWMUWdsxGSe9JozxnZIOS0wwbW4nO5HQL3XnmNHH0tIlVxw1advwYlU4xr822=w379-h283-s-no-gm?authuser=0"
                         alt="Character Counter Logo"
                     />
                     <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">

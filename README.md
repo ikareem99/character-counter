@@ -4,6 +4,11 @@
 
 ---
 
+## 🌐 Live Demo  
+🔥 **Experience it in action:** 👉 [Click Here](https://character-counter-two.vercel.app/)  
+
+---
+
 ## ⚡ Features  
 ✅ **Character Count** (With & Without Spaces)  
 ✅ **Word Count** – Know how many words you've written in a snap!  
@@ -12,18 +17,21 @@
 ✅ **Light/Dark Mode** – Switch between themes for comfortable reading.  
 ✅ **Blazing Fast & Responsive** – Works seamlessly on all devices!  
 
+## 📊 Word Density Analysis
+Gain insights into the most frequently used words in your text!  
+- Displays the **top five most common words** by default.  
+- Click **"See More ⬇"** to reveal all words with their frequency.  
+- Click **"See Less ⬆"** to collapse the list.  
+- Helps identify repetitive words and improve text quality.  
+
+🔍 **Optimize your writing with real-time word frequency analysis!**  
+
 ---
 
 ## 🛠 Built With  
 💻 **React** – Component-based UI for smooth performance.  
 🎨 **Tailwind CSS** – Utility-first styling for a beautiful and responsive design.  
 ⚡ **JavaScript (ES6+)** – Efficient and modern development.  
-
----
-
-
-## 🌐 Live Demo  
-🔥 **Experience it in action:** 👉 [Click Here](https://character-counter-two.vercel.app/)  
 
 ---
 

@@ -48,4 +48,12 @@ cd character-counter
 npm install  
 
 # 3️⃣ Start the development server  
-npm run dev  
+npm run dev
+```
+---
+
+## 💙 Support
+
+If you like this project, **give it a star ⭐ on GitHub**! Have any suggestions? Feel free to **open an issue** or **reach out**.
+
+👨‍💻 **Developed by:** Hanzala Kareem
